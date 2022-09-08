@@ -1437,7 +1437,11 @@ p {
   background: var(--white);
   padding: 60px;
 }
+.ud-contact-form-wrapper-mail {
+  border-radius: 8px;
 
+  padding: 60px;
+}
 @media (max-width: 767px) {
   .ud-contact-form-wrapper {
     padding: 40px 30px;
