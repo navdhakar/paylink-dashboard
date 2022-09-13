@@ -1,43 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
-<url>
-  <loc>http://www.paylink.in.net/index.html</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.paylink.in.net/about.html</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.paylink.in.net/how-to-use-paylink.html</loc>
-  <changefreq>weekly</changefreq>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
   <loc>https://www.paylink.in.net/</loc>
-  <changefreq>weekly</changefreq>
+  <lastmod>2022-09-13T12:09:07+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.paylink.in.net/pricing.html</loc>
-  <changefreq>weekly</changefreq>
+  <loc>https://www.paylink.in.net/index.html</loc>
+  <lastmod>2022-09-13T12:09:07+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.paylink.in.net/contact.html</loc>
-  <changefreq>weekly</changefreq>
+  <loc>https://www.paylink.in.net/how-to-use-paylink.html</loc>
+  <lastmod>2022-09-13T12:09:07+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.paylink.in.net/blog.html</loc>
-  <changefreq>weekly</changefreq>
+  <loc>https://www.paylink.in.net/how-to-integrate-no-code-payments-in-easy-steps.html</loc>
+  <lastmod>2022-09-13T12:09:07+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-  <loc>http://www.paylink.in.net/blog-details.html</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.paylink.in.net/login.html</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.paylink.in.net/404.html</loc>
-  <changefreq>weekly</changefreq>
-</url>
+
+
 </urlset>
