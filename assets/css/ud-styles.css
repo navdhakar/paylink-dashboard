@@ -45,7 +45,7 @@ img {
 }
 .rw-words-1 span {
   position: absolute;
-  color: #000000;
+  background-color: #0f8bd8;
   opacity: 0;
   padding: 5px;
   overflow: hidden;
@@ -1237,6 +1237,15 @@ p {
 @media (max-width: 767px) {
   .ud-testimonials {
     padding-top: 80px;
+  }
+  .steps {
+    flex-wrap: wrap;
+  }
+  .arrow {
+    display: none;
+  }
+  .ud-hero-image {
+    margin-bottom: 10px;
   }
 }
 
