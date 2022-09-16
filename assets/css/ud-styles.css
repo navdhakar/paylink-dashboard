@@ -39,6 +39,116 @@ body {
 img {
   max-width: 100%;
 }
+.rw-words-1 {
+  display: flex;
+  justify-content: center;
+}
+.rw-words-1 span {
+  position: absolute;
+  color: #000000;
+  opacity: 0;
+  padding: 5px;
+  overflow: hidden;
+  -webkit-animation: rotateWord 6s linear infinite 0s;
+  -ms-animation: rotateWord 6s linear infinite 0s;
+  animation: rotateWord 6s linear infinite 0s;
+}
+.rw-words-1 span:nth-child(2) {
+  -webkit-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.rw-words-1 span:nth-child(3) {
+  -webkit-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+@-webkit-keyframes rotateWord {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+  }
+  5% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+  17% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes rotateWord {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    -ms-transform: translateY(-30px);
+  }
+  5% {
+    opacity: 1;
+    -ms-transform: translateY(0px);
+  }
+  17% {
+    opacity: 1;
+    -ms-transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    -ms-transform: translateY(30px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes rotateWord {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  5% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  17% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 a,
 button,
@@ -538,7 +648,7 @@ p {
 }
 
 .ud-hero-content {
-  max-width: 780px;
+  max-width: 820px;
   margin: auto;
   margin-bottom: 30px;
 }
