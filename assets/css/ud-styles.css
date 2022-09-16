@@ -926,25 +926,27 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: row;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
   (max-width: 767px) {
-  .ud-about-wrapper {
-    display: block;
-  }
 }
 
 .ud-about-content-wrapper {
-  padding: 70px;
+  padding: 40px;
 }
 
 @media (max-width: 767px) {
   .ud-about-content-wrapper {
     padding: 50px 30px;
+  }
+  .ud-about-wrapper {
+    flex-wrap: wrap;
   }
 }
 
