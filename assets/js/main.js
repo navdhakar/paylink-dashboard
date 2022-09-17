@@ -18,12 +18,12 @@
     // === logo change
     if (ud_header.classList.contains("sticky")) {
       logo.src = "assets/images/logo/paylink.png";
-      pay.style.color = "#118C4F";
-      link.style.color = "#00d36b";
+      pay.style.color = "#0a2540";
+      link.style.color = "#0a2540";
     } else {
       logo.src = "assets/images/logo/paylink.png";
-      pay.style.color = "#0b5631";
-      link.style.color = "#00d36b";
+      pay.style.color = "white";
+      link.style.color = "white";
     }
 
     // show or hide the back-top-top button
