@@ -60,7 +60,26 @@
       elem.querySelector(".ud-submenu").classList.toggle("show");
     });
   });
+  var slideIndex = 0;
+  carousel();
 
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("slide");
+    var y = document.getElementsByClassName("slider__navlink");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+      y[i].style.color = "#2681f8";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {
+      slideIndex = 1;
+    }
+    x[slideIndex - 1].style.display = "block";
+    y[slideIndex - 1].style.color = "#00aa41";
+
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+  }
   // ===== wow js
   new WOW().init();
 

@@ -34,8 +34,12 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-a.slider__navlink:active {
-  color: red;
+
+.slider__nav > a:hover {
+  color: #00aa41;
+}
+.slider__nav > a:active {
+  color: #2681f8;
 }
 
 img {
@@ -52,6 +56,7 @@ img {
   overflow: hidden;
   position: relative;
 }
+
 .slides {
   display: flex;
   overflow-x: scroll;
